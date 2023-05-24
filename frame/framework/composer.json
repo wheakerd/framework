@@ -1,12 +1,11 @@
 {
     "name": "wheakerd/framework",
     "description": "cores",
-    "type": "library",
-    "version": "v0.0.1",
+    "type": "libra",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wheakerd\\": "src/"
+            "Wheakerd\\Framework\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +15,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=8.1"
-    }
+    "require": {}
 }
