@@ -7,8 +7,7 @@ namespace Wheakerd;
  */
 class Facade
 {
-
-    public function __callStatic($name, $arguments)
+    public static function __callStatic($name, $arguments)
     {
         echo "Calling static method '$name' " . implode(', ', $arguments) . "\n";
     }

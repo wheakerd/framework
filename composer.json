@@ -2,11 +2,11 @@
     "name": "wheakerd/framework",
     "description": "cores",
     "type": "library",
-    "version": "v0.0.5",
+    "version": "v0.0.6",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wheakerd\\": "src/"
+            "wheakerd\\": "src/wheakerd/"
         }
     },
     "authors": [
