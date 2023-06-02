@@ -6,7 +6,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "wheakerd\\": "src/wheakerd/"
+            "wheakerd\\": "src/",
+            "flute\\": "src/wheakerd/",
         }
     },
     "authors": [
