@@ -1,10 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Wheakerd;
-
-use Swoole\Http\Request as HttpRequest;
-
-class Request extends Facade
+namespace flute;
+class Request
 {
+    protected $config = [];
+
+    public function __construct(App $app)
+    {
+    }
 }
