@@ -1,2 +1,2 @@
 # framework
-flute框架的核心
+该仓库已转移至 skernl/framework
